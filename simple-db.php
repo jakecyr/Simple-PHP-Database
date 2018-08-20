@@ -1,3 +1,4 @@
+<?php
 require "file.php";
 
 class SimpleDb{
@@ -92,3 +93,4 @@ class SimpleDb{
 		$this->dataFile->write(json_encode($curData));
 	}
 }
+?>
